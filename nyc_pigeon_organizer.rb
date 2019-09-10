@@ -10,7 +10,8 @@ def nyc_pigeon_organizer(data)
            
         end 
         binding.pry
-        new_hash[name] 
+        new_hash[name]
+          new_hash[attribute]
       end 
     end 
   end 
