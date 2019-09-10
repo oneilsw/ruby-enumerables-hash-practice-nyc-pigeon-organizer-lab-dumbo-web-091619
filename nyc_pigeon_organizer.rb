@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
            
         end 
           new_hash[name][attribute]=[]
+          type
         binding.pry 
       end 
       
