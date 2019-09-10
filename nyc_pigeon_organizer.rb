@@ -7,12 +7,13 @@ def nyc_pigeon_organizer(data)
       name_array.each do |name|
         if !new_hash.has_key?(name)
           new_hash[name] = {}
+          binding.pry 
         end 
         
       end 
     end 
   end 
-                   binding.pry
+              
 end
  
  
