@@ -6,7 +6,9 @@ def nyc_pigeon_organizer(data)
     option.each do |type, name_array|
       if attribute == :gender
         name_array.each do |name|
-          new_hash[name] = {}
+          new_hash[name] = {
+            
+          }
         end 
       end 
     end 
