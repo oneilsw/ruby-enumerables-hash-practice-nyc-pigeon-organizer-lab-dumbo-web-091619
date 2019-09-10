@@ -8,7 +8,10 @@ def nyc_pigeon_organizer(data)
         if !new_hash.has_key?(name)
           new_hash[name] = {}
         end 
+          if new_hash[name][attribute]
+            
           new_hash[name][attribute]=[]
+          
           new_hash[name][attribute] << type.to_s 
          binding.pry 
       end  
