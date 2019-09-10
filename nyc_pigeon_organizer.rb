@@ -9,13 +9,7 @@ def nyc_pigeon_organizer(data)
           new_hash[name] = {}
         end 
       end 
-      
-        
-     
-      
     end 
-       
-    
   end 
      binding.pry
 end
