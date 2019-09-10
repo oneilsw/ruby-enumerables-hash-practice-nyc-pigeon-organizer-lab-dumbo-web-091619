@@ -4,8 +4,9 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   data.each do |attribute, option|
     option.each do |type, name_array|
+                   binding.pry
       if type == :gender
-             binding.pry
+
         name_array.each do |name|
           new_hash[name] = {}
         end 
